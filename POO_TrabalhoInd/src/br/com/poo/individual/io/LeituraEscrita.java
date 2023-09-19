@@ -37,15 +37,15 @@ public class LeituraEscrita {
 
     public static Map<Integer, Habilidade> lerHabilidades() {
         Map<Integer, Habilidade> habilidades = new HashMap<>();
-        int idHabilidade = 1; // Começar com o primeiro ID para habilidades
-        boolean leituraHabilidades = false; // Indica quando começar a ler habilidades
+        int idHabilidade = 1; 
+        boolean leituraHabilidades = false; 
         try (BufferedReader br = new BufferedReader(new FileReader(CAMINHO_ARQUIVO_BANCO))) {
             String linha;
             while ((linha = br.readLine()) != null) {
                 if (leituraHabilidades) {
                     String[] partes = linha.split(";");
                     if (partes.length >= 2) {
-                        String nomeHabilidade = partes[1].trim(); // Use partes[1] para obter o nome da habilidade
+                        String nomeHabilidade = partes[1].trim(); 
                         Habilidade habilidade = new Habilidade(idHabilidade, nomeHabilidade);
                         habilidades.put(idHabilidade, habilidade);
                         idHabilidade++;
@@ -75,7 +75,7 @@ public class LeituraEscrita {
 
     public static void escreverHabilidades(Map<Integer, Habilidade> habilidades) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(CAMINHO_ARQUIVO_BANCO, true))) {
-            bw.newLine(); // Adicionar uma linha em branco antes de escrever habilidades
+            bw.newLine(); 
             for (Habilidade habilidade : habilidades.values()) {
                 bw.write(habilidade.getNomeHabilidade());
                 bw.newLine();
