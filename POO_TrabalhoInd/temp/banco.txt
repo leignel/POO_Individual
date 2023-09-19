@@ -1,0 +1,12 @@
+1; Cristian; cristian@gmail.com; 123456;
+2; Eduardo; eduardo@gmail.com; 234567;
+3; Felipe; felipe@gmail.com; 345678;
+4; Igor; igor@gmail.com; 456789;
+5; Rian; rian@gmail.com; 567890;
+1; Lógica de Programação;
+2; Banco de Dados;
+3; Java;
+4; FrontEnd Essencial;
+5; Desenvolvimento de API Restful;
+6; Desenvolvimento WEB;
+7; Desenvolvimento de Aplicativo Mobile;
