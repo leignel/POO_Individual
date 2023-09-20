@@ -5,7 +5,7 @@
 <body>
   <h1 align="center">Residente / Habilidade</h1>
   <div align="center">
-    <img src="https://github.com/leignel/POO_Individual/assets/141193350/2e593c7b-7eca-4af3-a5a0-919bf90ac487" height="400" width="900"
+    <img src="https://github.com/leignel/POO_Individual/assets/141193350/8e838bf4-861b-4130-84ec-e9fde35f7726" height="400" width="900"
 "alt="Residente / Habilidade">
   </div>
 
